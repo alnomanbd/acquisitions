@@ -1,0 +1,39 @@
+# Ignore node_modules
+node_modules
+
+# Ignore build output
+dist
+build
+out
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore coverage reports
+coverage
+
+# Ignore compiled TypeScript
+*.js
+*.d.ts
+
+# Ignore environment files
+.env
+.env.* 
+
+# Ignore specific config files
+.eslintrc.js
+.prettierrc.js
+
+# Ignore Git-related files
+.git
+.gitignore
+
+# Ignore misc
+logs
+*.log
+
+coverrage/
+drizzle/
+logs/
